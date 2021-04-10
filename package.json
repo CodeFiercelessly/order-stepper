@@ -1,0 +1,16 @@
+{
+    "name": "order-stepper",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "tsc",
+        "prettier": "prettier --write 'src/**/*.{ts}'",
+        "lint": "eslint ./src",
+        "lint:fix": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix"
+    },
+    "private": true,
+    "devDependencies": {
+        "typescript": "~4.0.3"
+    },
+    "license": "ISC"
+}
